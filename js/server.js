@@ -1,5 +1,5 @@
-var http = require('http');
-var util = require('./util');
+var http = require('http'); /* vgl. "import java.net.*;" */
+var util = require('./util'); /* vgl. "import java.util.*;" */
 
 http.createServer(function (req, res) {
     var answer =  util.helloWorld();
